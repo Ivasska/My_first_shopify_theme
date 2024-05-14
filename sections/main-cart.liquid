@@ -1,0 +1,10 @@
+{% for item in cart.items %}
+  <div class="line-item">
+    <div class="line-item-title">
+      {{ item.title }}
+    </div>
+    <div class="line-item-price">
+      {{ item.price }}
+    </div>
+  </div>
+{% endfor %}
